@@ -43,7 +43,7 @@ class ContextPressureStopModule:
 
 class ContextPressurePlugin(Plugin):
     name = "context_pressure"
-    version = "0.1.0"
+    version = "1.0.0"
     desc = "上下文压力过高时请求被动循环阶段性收尾"
 
     def after_step_modules(self) -> list[object]:
